@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>openradarscience.org - nasa</title><link href="https://openradarscience.org/" rel="alternate"></link><link href="https://openradarscience.org/feeds/nasa.atom.xml" rel="self"></link><id>https://openradarscience.org/</id><updated>2017-09-16T00:00:00+02:00</updated><entry><title>PyTDA</title><link href="https://openradarscience.org/2017/09/pytda/" rel="alternate"></link><published>2017-09-16T00:00:00+02:00</published><updated>2017-09-16T00:00:00+02:00</updated><author><name>nasa</name></author><id>tag:openradarscience.org,2017-09-16:/2017/09/pytda/</id><summary type="html">&lt;h1 id="python-turbulence-detection-algorithm"&gt;Python Turbulence Detection&amp;nbsp;Algorithm&lt;/h1&gt;
+&lt;h2 id="quick-description"&gt;Quick&amp;nbsp;description&lt;/h2&gt;
+&lt;p&gt;This software provides Python functions that will estimate turbulence from Doppler radar data ingested via Py-&lt;span class="caps"&gt;ART&lt;/span&gt;. Specifically, this software will estimate the cubic root of eddy dissipation rate, given input radar data containing reflectivity and spectrum width. Can be done on an individual …&lt;/p&gt;</summary><content type="html">&lt;h1 id="python-turbulence-detection-algorithm"&gt;Python Turbulence Detection&amp;nbsp;Algorithm&lt;/h1&gt;
+&lt;h2 id="quick-description"&gt;Quick&amp;nbsp;description&lt;/h2&gt;
+&lt;p&gt;This software provides Python functions that will estimate turbulence from Doppler radar data ingested via Py-&lt;span class="caps"&gt;ART&lt;/span&gt;. Specifically, this software will estimate the cubic root of eddy dissipation rate, given input radar data containing reflectivity and spectrum width. Can be done on an individual sweep basis or by processing a full volume at once. If the latter, a new turbulence field is created within the Py-&lt;span class="caps"&gt;ART&lt;/span&gt; radar object. The turbulence algorithm is based on the &lt;span class="caps"&gt;NCAR&lt;/span&gt; Turbulence Detection Algorithm (&lt;span class="caps"&gt;NTDA&lt;/span&gt;), adapted to work with a single&amp;nbsp;radar.&lt;/p&gt;
+&lt;h2 id="homepage"&gt;Homepage&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/nasa/PyTDA"&gt;https://github.com/nasa/PyTDA&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="code-repository"&gt;Code&amp;nbsp;Repository&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/nasa/PyTDA"&gt;https://github.com/nasa/PyTDA&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="software-documentation"&gt;Software&amp;nbsp;Documentation&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/nasa/PyTDA"&gt;https://github.com/nasa/PyTDA&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="user-group-or-forum-page"&gt;User group or forum&amp;nbsp;page&lt;/h2&gt;
+&lt;p&gt;N/A&lt;/p&gt;
+&lt;h2 id="license-model"&gt;License&amp;nbsp;model&lt;/h2&gt;
+&lt;p&gt;&lt;span class="caps"&gt;NASA&lt;/span&gt; Open Source&amp;nbsp;3.0&lt;/p&gt;
+&lt;h2 id="year-of-first-release"&gt;Year of first&amp;nbsp;release&lt;/h2&gt;
+&lt;p&gt;2015&lt;/p&gt;
+&lt;h2 id="main-programming-laguages"&gt;Main programming&amp;nbsp;laguage(s)&lt;/h2&gt;
+&lt;p&gt;Python&lt;/p&gt;
+&lt;h2 id="supported-platforms"&gt;Supported&amp;nbsp;platforms&lt;/h2&gt;
+&lt;p&gt;Linux.&amp;nbsp;Mac&lt;/p&gt;
+&lt;h2 id="type-of-software"&gt;Type of&amp;nbsp;software&lt;/h2&gt;
+&lt;p&gt;&lt;span class="caps"&gt;API&lt;/span&gt;/Library&lt;/p&gt;
+&lt;h2 id="further-details"&gt;Further&amp;nbsp;details&lt;/h2&gt;
+&lt;p&gt;For help see &lt;span class="caps"&gt;HELP&lt;/span&gt; file. For license see &lt;span class="caps"&gt;LICENSE&lt;/span&gt;.md.&lt;/p&gt;
+&lt;p&gt;Installation
+Make sure this directory is in your &lt;span class="caps"&gt;PYTHONPATH&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Install Py-&lt;span class="caps"&gt;ART&lt;/span&gt; (&lt;a href="https://github.com/ARM-DOE/pyart"&gt;https://github.com/&lt;span class="caps"&gt;ARM&lt;/span&gt;-&lt;span class="caps"&gt;DOE&lt;/span&gt;/pyart&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Run compile_pytda_cython_code.sh from the command&amp;nbsp;line&lt;/p&gt;
+&lt;p&gt;To use PyTDA:
+import&amp;nbsp;pytda&lt;/p&gt;
+&lt;p&gt;Then you have access to the functions pytda.calc_turb_sweep() and&amp;nbsp;pytda.calc_turb_vol().&lt;/p&gt;
+&lt;p&gt;Obtaining the turbulence field for a volume can be as simple as:
+import pyart
+import pytda
+radar = pyart.io.read(&amp;#8216;YOUR_FILE_HERE&amp;#8217;)
+pytda.calc_turb_vol(radar) #See function&amp;#8217;s docstring for&amp;nbsp;kwargs&lt;/p&gt;
+&lt;p&gt;You will then have a field called &amp;#8216;turbulence&amp;#8217; that can be plotted, analyzed, or saved to file like any other Py-&lt;span class="caps"&gt;ART&lt;/span&gt; radar&amp;nbsp;field.&lt;/p&gt;
+&lt;p&gt;There is support for handling split cut volumes like &lt;span class="caps"&gt;NEXRAD&lt;/span&gt;, where reflectivity and spectrum width may be on separate sweeps. See the docstrings in the functions for more&amp;nbsp;information.&lt;/p&gt;
+&lt;p&gt;For 2010 and older &lt;span class="caps"&gt;NEXRAD&lt;/span&gt; data (V06 and earlier), recommend running on &lt;span class="caps"&gt;UF&lt;/span&gt; or CFRadial formats produced from the native Level 2 files via Radx, due to conflicts between Py-&lt;span class="caps"&gt;ART&lt;/span&gt; and older &lt;span class="caps"&gt;NEXRAD&lt;/span&gt; data&amp;nbsp;models.&lt;/p&gt;
+&lt;h2 id="references"&gt;References&lt;/h2&gt;
+&lt;p&gt;Turbulence and &lt;span class="caps"&gt;NTDA&lt;/span&gt;&amp;nbsp;References&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Bohne, &lt;span class="caps"&gt;A. R.&lt;/span&gt;(1982). Radar detection of turbulence in precipitation environments. Journal of the Atmospheric Sciences, 39(8),&amp;nbsp;1819-1837.&lt;/li&gt;
+&lt;li&gt;Doviak, R. J., and &lt;span class="caps"&gt;D. S.&lt;/span&gt; Zrnic, 1993: Doppler Radar and Weather Observations, Academic Press, 562&amp;nbsp;pp.&lt;/li&gt;
+&lt;li&gt;Labitt, M. (1981). Coordinated radar and aircraft observations of turbulence (No. &lt;span class="caps"&gt;ATC&lt;/span&gt;-108). Federal Aviation Administration, Systems Research and Development&amp;nbsp;Service.&lt;/li&gt;
+&lt;li&gt;Williams, J. K., &lt;span class="caps"&gt;L. B.&lt;/span&gt; Cornman, J. Yee, &lt;span class="caps"&gt;S. G.&lt;/span&gt; Carson, G. Blackburn, and J. Craig, 2006: &lt;span class="caps"&gt;NEXRAD&lt;/span&gt; detection of hazardous turbulence. 44th &lt;span class="caps"&gt;AIAA&lt;/span&gt; Aerospace Sciences Meeting and Exhibit, Reno, &lt;span class="caps"&gt;NV&lt;/span&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Lang, T. J., Python-based scientific analysis and visualization of precipitation systems at &lt;span class="caps"&gt;NASA&lt;/span&gt; Marshall Space Flight Center. 5th Symposium on Advances in Modeling and Analysis Using Python, American Meteorological Society, Phoenix, &lt;span class="caps"&gt;AZ&lt;/span&gt;. (available online at &lt;a href="https://ams.confex.com/ams/95Annual/webprogram/Paper262779.html"&gt;https://ams.confex.com/ams/95Annual/webprogram/Paper262779.html&lt;/a&gt;)&lt;/p&gt;</content><category term="project"></category><category term="devel"></category><category term="python"></category></entry></feed>

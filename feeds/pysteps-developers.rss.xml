@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>openradarscience.org - PySteps developers</title><link>https://openradarscience.org/</link><description></description><lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0200</lastBuildDate><item><title>pysteps</title><link>https://openradarscience.org/2018/08/pysteps/</link><description>&lt;h2 id="quick-description"&gt;Quick&amp;nbsp;description&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://pysteps.github.io/"&gt;pysteps&lt;/a&gt; is a community that develops and maintains an easy to use, modular and open source python framework for precipitation short-term ensemble prediction&amp;nbsp;systems.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pysteps sample image" src="https://openradarscience.org/images/pysteps_sample.png"&gt;&lt;/p&gt;
+&lt;h2 id="homepage"&gt;Homepage&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://pysteps.github.io/"&gt;https://pysteps.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="code-repositories"&gt;Code&amp;nbsp;Repositories&lt;/h2&gt;
+&lt;h3 id="the-pysteps-package"&gt;The pysteps&amp;nbsp;package&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/pySTEPS/pysteps"&gt;https://github.com/pySTEPS/pysteps&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="sample-data"&gt;Sample&amp;nbsp;data&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/pySTEPS/pysteps-data"&gt;https://github.com/pySTEPS/pysteps-data&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="software-documentation"&gt;Software&amp;nbsp;Documentation …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PySteps developers</dc:creator><pubDate>Fri, 10 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:openradarscience.org,2018-08-10:/2018/08/pysteps/</guid><category>project</category><category>devel</category><category>python</category><category>nowcasting</category><category>opticalflow</category></item></channel></rss>

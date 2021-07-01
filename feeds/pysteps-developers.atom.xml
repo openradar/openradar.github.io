@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>openradarscience.org - PySteps developers</title><link href="https://openradarscience.org/" rel="alternate"></link><link href="https://openradarscience.org/feeds/pysteps-developers.atom.xml" rel="self"></link><id>https://openradarscience.org/</id><updated>2018-08-10T00:00:00+02:00</updated><entry><title>pysteps</title><link href="https://openradarscience.org/2018/08/pysteps/" rel="alternate"></link><published>2018-08-10T00:00:00+02:00</published><updated>2018-08-10T00:00:00+02:00</updated><author><name>PySteps developers</name></author><id>tag:openradarscience.org,2018-08-10:/2018/08/pysteps/</id><summary type="html">&lt;h2 id="quick-description"&gt;Quick&amp;nbsp;description&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://pysteps.github.io/"&gt;pysteps&lt;/a&gt; is a community that develops and maintains an easy to use, modular and open source python framework for precipitation short-term ensemble prediction&amp;nbsp;systems.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pysteps sample image" src="https://openradarscience.org/images/pysteps_sample.png"&gt;&lt;/p&gt;
+&lt;h2 id="homepage"&gt;Homepage&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://pysteps.github.io/"&gt;https://pysteps.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="code-repositories"&gt;Code&amp;nbsp;Repositories&lt;/h2&gt;
+&lt;h3 id="the-pysteps-package"&gt;The pysteps&amp;nbsp;package&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/pySTEPS/pysteps"&gt;https://github.com/pySTEPS/pysteps&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="sample-data"&gt;Sample&amp;nbsp;data&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/pySTEPS/pysteps-data"&gt;https://github.com/pySTEPS/pysteps-data&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="software-documentation"&gt;Software&amp;nbsp;Documentation …&lt;/h2&gt;</summary><content type="html">&lt;h2 id="quick-description"&gt;Quick&amp;nbsp;description&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://pysteps.github.io/"&gt;pysteps&lt;/a&gt; is a community that develops and maintains an easy to use, modular and open source python framework for precipitation short-term ensemble prediction&amp;nbsp;systems.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pysteps sample image" src="https://openradarscience.org/images/pysteps_sample.png"&gt;&lt;/p&gt;
+&lt;h2 id="homepage"&gt;Homepage&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://pysteps.github.io/"&gt;https://pysteps.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="code-repositories"&gt;Code&amp;nbsp;Repositories&lt;/h2&gt;
+&lt;h3 id="the-pysteps-package"&gt;The pysteps&amp;nbsp;package&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/pySTEPS/pysteps"&gt;https://github.com/pySTEPS/pysteps&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="sample-data"&gt;Sample&amp;nbsp;data&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/pySTEPS/pysteps-data"&gt;https://github.com/pySTEPS/pysteps-data&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="software-documentation"&gt;Software&amp;nbsp;Documentation&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://pysteps.readthedocs.io"&gt;https://pysteps.readthedocs.io&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="license-model"&gt;License&amp;nbsp;model&lt;/h2&gt;
+&lt;p&gt;&lt;span class="caps"&gt;BSD&lt;/span&gt;-3&lt;/p&gt;
+&lt;h2 id="year-of-first-release"&gt;Year of first&amp;nbsp;release&lt;/h2&gt;
+&lt;p&gt;2018&lt;/p&gt;
+&lt;h2 id="main-programming-laguages"&gt;Main programming&amp;nbsp;laguage(s)&lt;/h2&gt;
+&lt;p&gt;Python&lt;/p&gt;
+&lt;h2 id="supported-platforms"&gt;Supported&amp;nbsp;platforms&lt;/h2&gt;
+&lt;p&gt;Linux, Mac,&amp;nbsp;Windows&lt;/p&gt;
+&lt;h2 id="type-of-software"&gt;Type of&amp;nbsp;software&lt;/h2&gt;
+&lt;p&gt;&lt;span class="caps"&gt;API&lt;/span&gt;/Library&lt;/p&gt;
+&lt;h2 id="reference"&gt;Reference&lt;/h2&gt;
+&lt;p&gt;Pulkkinen, S., D. Nerini, A. Perez Hortal, C. Velasco-Forero, U. Germann, A. Seed, and L. Foresti, 2019: Pysteps: an open-source Python library for probabilistic precipitation nowcasting (v1.0). Geosci. Model Dev. Discuss., doi:10.5194/gmd-2019-94, &lt;strong&gt;in review&lt;/strong&gt;.&lt;/p&gt;</content><category term="project"></category><category term="devel"></category><category term="python"></category><category term="nowcasting"></category><category term="opticalflow"></category></entry></feed>

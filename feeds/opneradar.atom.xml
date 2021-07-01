@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>openradarscience.org - opneradar</title><link href="https://openradarscience.org/" rel="alternate"></link><link href="https://openradarscience.org/feeds/opneradar.atom.xml" rel="self"></link><id>https://openradarscience.org/</id><updated>2017-09-16T00:00:00+02:00</updated><entry><title>RSL in IDL</title><link href="https://openradarscience.org/2017/09/rsl_in_idl/" rel="alternate"></link><published>2017-09-16T00:00:00+02:00</published><updated>2017-09-16T00:00:00+02:00</updated><author><name>opneradar</name></author><id>tag:openradarscience.org,2017-09-16:/2017/09/rsl_in_idl/</id><summary type="html">&lt;h2 id="quick-description"&gt;Quick&amp;nbsp;description&lt;/h2&gt;
+&lt;p&gt;&lt;span class="caps"&gt;RSL&lt;/span&gt; in &lt;span class="caps"&gt;IDL&lt;/span&gt; is a package of routines for working with &lt;span class="caps"&gt;TRMM&lt;/span&gt; Ground Validation radar data. The programs and data structures are modeled on &lt;span class="caps"&gt;TRMM&lt;/span&gt; &lt;span class="caps"&gt;GV&lt;/span&gt;&amp;#8217;s C-based Radar Software Library (&lt;span class="caps"&gt;RSL&lt;/span&gt;), but are written in the Interactive Data Language (&lt;span class="caps"&gt;IDL&lt;/span&gt;). The idea is to provide the utility …&lt;/p&gt;</summary><content type="html">&lt;h2 id="quick-description"&gt;Quick&amp;nbsp;description&lt;/h2&gt;
+&lt;p&gt;&lt;span class="caps"&gt;RSL&lt;/span&gt; in &lt;span class="caps"&gt;IDL&lt;/span&gt; is a package of routines for working with &lt;span class="caps"&gt;TRMM&lt;/span&gt; Ground Validation radar data. The programs and data structures are modeled on &lt;span class="caps"&gt;TRMM&lt;/span&gt; &lt;span class="caps"&gt;GV&lt;/span&gt;&amp;#8217;s C-based Radar Software Library (&lt;span class="caps"&gt;RSL&lt;/span&gt;), but are written in the Interactive Data Language (&lt;span class="caps"&gt;IDL&lt;/span&gt;). The idea is to provide the utility of &lt;span class="caps"&gt;RSL&lt;/span&gt; in an &lt;span class="caps"&gt;IDL&lt;/span&gt;&amp;nbsp;environment.&lt;/p&gt;
+&lt;h2 id="homepage"&gt;Homepage&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://trmm-fc/trmm_gv/software/rsl_in_idl/RSL_in_IDL.html"&gt;http://trmm-fc/trmm_gv/software/rsl_in_idl/RSL_in_IDL.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="code-repository"&gt;Code&amp;nbsp;Repository&lt;/h2&gt;
+&lt;p&gt;N/A&lt;/p&gt;
+&lt;h2 id="software-documentation"&gt;Software&amp;nbsp;Documentation&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://trmm-fc/trmm_gv/software/rsl_in_idl/RSL_in_IDL.html"&gt;http://trmm-fc/trmm_gv/software/rsl_in_idl/RSL_in_IDL.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="user-group-or-forum-page"&gt;User group or forum&amp;nbsp;page&lt;/h2&gt;
+&lt;p&gt;N/A&lt;/p&gt;
+&lt;h2 id="license-model"&gt;License&amp;nbsp;model&lt;/h2&gt;
+&lt;p&gt;&lt;span class="caps"&gt;GNU&lt;/span&gt; &lt;span class="caps"&gt;GPL&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id="year-of-first-release"&gt;Year of first&amp;nbsp;release&lt;/h2&gt;
+&lt;p&gt;2004&lt;/p&gt;
+&lt;h2 id="main-programming-laguages"&gt;Main programming&amp;nbsp;laguage(s)&lt;/h2&gt;
+&lt;p&gt;Interactive Data Language (&lt;span class="caps"&gt;IDL&lt;/span&gt;)&lt;/p&gt;
+&lt;h2 id="supported-platforms"&gt;Supported&amp;nbsp;platforms&lt;/h2&gt;
+&lt;p&gt;Linux&lt;/p&gt;
+&lt;h2 id="type-of-software"&gt;Type of&amp;nbsp;software&lt;/h2&gt;
+&lt;p&gt;&lt;span class="caps"&gt;API&lt;/span&gt;/Library&lt;/p&gt;
+&lt;h2 id="further-details"&gt;Further&amp;nbsp;details&lt;/h2&gt;
+&lt;p&gt;N/A&lt;/p&gt;
+&lt;h2 id="references"&gt;References&lt;/h2&gt;
+&lt;p&gt;N/A&lt;/p&gt;</content><category term="project"></category><category term="devel"></category><category term="idl"></category></entry></feed>

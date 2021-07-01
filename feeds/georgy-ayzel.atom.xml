@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>openradarscience.org - Georgy Ayzel</title><link href="https://openradarscience.org/" rel="alternate"></link><link href="https://openradarscience.org/feeds/georgy-ayzel.atom.xml" rel="self"></link><id>https://openradarscience.org/</id><updated>2018-08-28T00:00:00+02:00</updated><entry><title>rainymotion</title><link href="https://openradarscience.org/2018/08/rainymotion/" rel="alternate"></link><published>2018-08-28T00:00:00+02:00</published><updated>2018-08-28T00:00:00+02:00</updated><author><name>Georgy Ayzel</name></author><id>tag:openradarscience.org,2018-08-28:/2018/08/rainymotion/</id><summary type="html">&lt;h2 id="quick-description"&gt;Quick&amp;nbsp;description&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;rainymotion&lt;/code&gt; is a Python library for radar-based precipitation nowcasting based on optical flow techniques. The main idea is to provide a stack of open models which can serve as a transparent benchmark for further development of nowcasting techniques. An extensive verification study in Germany has shown that the …&lt;/p&gt;</summary><content type="html">&lt;h2 id="quick-description"&gt;Quick&amp;nbsp;description&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;rainymotion&lt;/code&gt; is a Python library for radar-based precipitation nowcasting based on optical flow techniques. The main idea is to provide a stack of open models which can serve as a transparent benchmark for further development of nowcasting techniques. An extensive verification study in Germany has shown that the &lt;code&gt;rainymotion&lt;/code&gt; models based on Dense optical flow are at least equivalent if not superior to state-of-the-art operational nowcasting&amp;nbsp;techniques.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="rainymotion image" src="https://raw.githubusercontent.com/hydrogo/rainymotion/master/docs/source/notebooks/images/rainymotionisbasedonfoss.png"&gt;&lt;/p&gt;
+&lt;h2 id="homepage"&gt;Homepage&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://rainymotion.readthedocs.io"&gt;https://rainymotion.readthedocs.io&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="code-repository"&gt;Code&amp;nbsp;Repository&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/hydrogo/rainymotion"&gt;https://github.com/hydrogo/rainymotion&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="software-documentation"&gt;Software&amp;nbsp;Documentation&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://rainymotion.readthedocs.io"&gt;https://rainymotion.readthedocs.io&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="license-model"&gt;License&amp;nbsp;model&lt;/h2&gt;
+&lt;p&gt;&lt;span class="caps"&gt;MIT&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id="year-of-first-release"&gt;Year of first&amp;nbsp;release&lt;/h2&gt;
+&lt;p&gt;2018&lt;/p&gt;
+&lt;h2 id="main-programming-language"&gt;Main programming&amp;nbsp;language&lt;/h2&gt;
+&lt;p&gt;Python&lt;/p&gt;
+&lt;h2 id="supported-platforms"&gt;Supported&amp;nbsp;platforms&lt;/h2&gt;
+&lt;p&gt;Linux, Mac,&amp;nbsp;Windows&lt;/p&gt;
+&lt;h2 id="type-of-software"&gt;Type of&amp;nbsp;software&lt;/h2&gt;
+&lt;p&gt;&lt;span class="caps"&gt;API&lt;/span&gt;/Library&lt;/p&gt;
+&lt;h2 id="references"&gt;References&lt;/h2&gt;
+&lt;p&gt;Ayzel, G., Heistermann, M., Winterrath, T. (2018): Optical flow models as an open benchmark for radar-based precipitation nowcasting (rainymotion v0.1), manuscript submitted to Geoscientific Model&amp;nbsp;Development.&lt;/p&gt;</content><category term="project"></category><category term="devel"></category><category term="python"></category><category term="nowcasting"></category><category term="opticalflow"></category></entry></feed>

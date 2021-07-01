@@ -1,0 +1,14 @@
+#banner {
+    padding: 85px 0;
+}
+
+#tipue_search_input {
+    padding: 9px 12px 9px 40px;
+    background-position: 15px 13px;
+}
+
+body {
+    font-family: "Helvetica Neue","Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.628571;
+}
