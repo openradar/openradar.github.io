@@ -120,5 +120,5 @@ nb_execution_mode = 'off'
 
 
 comments_config = {
-    'utterances': {'repo': 'mgrover1/open-radar-test', 'optional': 'config', 'label': '💬 comment'},
+    'utterances': {'repo': 'openradar/openradar.github.io', 'optional': 'config', 'label': '💬 comment'},
 }
