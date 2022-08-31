@@ -2,7 +2,7 @@
 title: Giving Open Radar Science a New Look
 date: 2022-08-31
 category: News
-authors: openradar
+authors: Max Grover
 tags: news, infrastructure, community
 ---
 
