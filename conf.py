@@ -60,6 +60,14 @@ html_theme = 'pydata_sphinx_theme'
 
 # Add some more theme Options
 html_theme_options = {
+    "external_links": [
+        {
+            "url": "https://docs.openradarscience.org",
+            "name": "Docs",
+        },
+    ],
+    "header_links_before_dropdown": 4,
+    "show_toc_level": 1,
     'github_url': 'https://github.com/openradar/openradar.github.io',
     'search_bar_text': 'Search this site... ',
     "navbar_align": "left",
