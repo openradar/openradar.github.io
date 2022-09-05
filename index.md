@@ -40,6 +40,6 @@ Have you developed a software for weather radar data processing? We invite you t
 pages/projects
 blog
 pages/workshops
-pages/opendata
 pages/community
+pages/opendata
 ```
