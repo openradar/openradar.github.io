@@ -23,7 +23,7 @@ jobs:
       - name: Setup Conda Environment
         uses: conda-incubator/setup-miniconda@v2
         with:
-          environment-file: ci/environment.yml
+          environment-file: environment.yml
           activate-environment: open-radar-dev
           auto-activate-base: false
       # Build the website
