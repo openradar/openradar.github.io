@@ -57,6 +57,14 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 html_theme = 'pydata_sphinx_theme'
+html_logo = "_static/openradar_logo.svg"
+
+html_context = {
+    "github_url": "https://github.com",  # or your GitHub Enterprise site
+    "github_user": "openradar",
+    "github_repo": "openradar.github.io",
+    "github_version": "main",
+}
 
 # Add some more theme Options
 html_theme_options = {
@@ -66,16 +74,26 @@ html_theme_options = {
             "name": "Docs",
         },
     ],
+    "favicons": [
+        {
+            "rel": "icon",
+            "sizes": "16x16",
+            "href": "openradar_micro.svg",
+        },
+        {
+            "rel": "icon",
+            "sizes": "32x32",
+            "href": "openradar_micro.svg",
+        },
+    ],
+    'github_url': 'https://github.com/openradar/openradar.github.io',
     "header_links_before_dropdown": 4,
     "show_toc_level": 1,
-    'github_url': 'https://github.com/openradar/openradar.github.io',
     'search_bar_text': 'Search this site... ',
     "navbar_align": "left",
     #'google_analytics_id': 'UA-196809533-1',
-    "navbar_end": ["navbar-icon-links.html", "search-field.html"],
-    "logo": {
-        "text": "Open Radar Science",
-    }
+    "navbar_end": ["icon-links.html"],
+    "use_edit_page_button": True,
 }
 
 # rediraffe_redirects = 'redirects.txt'
@@ -84,7 +102,7 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-# html_static_path = ['_static']
+html_static_path = ['_static']
 
 html_sidebars = {
     "blog": [
