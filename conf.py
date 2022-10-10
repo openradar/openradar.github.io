@@ -86,6 +86,13 @@ html_theme_options = {
             "href": "openradar_micro.svg",
         },
     ],
+    "icon_links": [
+        {
+            "name": "Discourse",
+            "url": "https://openradar.discourse.group",
+            "icon": "fab fa-discourse",
+        },
+    ],
     'github_url': 'https://github.com/openradar/openradar.github.io',
     "header_links_before_dropdown": 4,
     "show_toc_level": 1,
