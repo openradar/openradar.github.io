@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>openradarscience.org</id>
   <title>Open Radar Science</title>
-  <updated>2022-09-14T06:28:45.280782+00:00</updated>
+  <updated>2022-10-11T17:24:49.363726+00:00</updated>
   <link href="openradarscience.org"/>
   <link href="openradarscience.org/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
@@ -15,7 +15,7 @@
     </author>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
 &lt;p&gt;Visualization tool leveraging PyArt package. Allows browsing data and accessing some PyArt calculations. Also working toward Solo-like editing alternative.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://github.com/nguy/artview"&gt;https://github.com/nguy/artview&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="github reference external" href="https://github.com/nguy/artview"&gt;nguy/artview&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 </content>
     <link href="openradarscience.org/posts/packages/artview/" rel="alternate"/>
@@ -33,7 +33,7 @@
     </author>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
 &lt;p&gt;The National Oceanic and Atmospheric Administration (NOAA) regularly produces national 3D radar reflectivity mosaics via its Multi-Radar/Multi-Sensor (MRMS) system. These mosaics are wonderful for storm and precipitation analysis and research, but they are distributed in odd formats that NOAA is ever changing. Sometimes you just want to read a file and make a plot! This is what MMM-Py is for. With it, you can read any version of the MRMS radar mosaics, past or present, and you can analyze, plot, subsection, and output custom mosaics of your own, which MMM-Py can ingest later. MMM-Py is free and open source. It is capable of producing publication-ready figures and analyses, but it also can do quicklook plots so you can check out the cool storm that just happened.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://github.com/nasa/MMM-Py"&gt;https://github.com/nasa/MMM-Py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="github reference external" href="https://github.com/nasa/MMM-Py"&gt;nasa/MMM-Py&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 </content>
     <link href="openradarscience.org/posts/packages/mmm-py/" rel="alternate"/>
@@ -51,7 +51,7 @@
     </author>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
 &lt;p&gt;MultiDop is a Python-based interface between the C-based DDA code developed at University of Oklahoma and the Python Atmospheric Radiation Measurement Radar Toolkit (Py-ART) software developed at Argonne National Lab. Use this software to perform 3D wind analyses using 2-3 independent Doppler radars.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://github.com/nasa/MultiDop"&gt;https://github.com/nasa/MultiDop&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="github reference external" href="https://github.com/nasa/MultiDop"&gt;nasa/MultiDop&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 </content>
     <link href="openradarscience.org/posts/packages/multidop/" rel="alternate"/>
@@ -105,7 +105,7 @@
     </author>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
 &lt;p&gt;This software provides Python functions that will estimate turbulence from Doppler radar data ingested via Py-ART. Specifically, this software will estimate the cubic root of eddy dissipation rate, given input radar data containing reflectivity and spectrum width. Can be done on an individual sweep basis or by processing a full volume at once. If the latter, a new turbulence field is created within the Py-ART radar object. The turbulence algorithm is based on the NCAR Turbulence Detection Algorithm (NTDA), adapted to work with a single radar.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://github.com/nasa/PyTDA"&gt;https://github.com/nasa/PyTDA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="github reference external" href="https://github.com/nasa/PyTDA"&gt;nasa/PyTDA&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 </content>
     <link href="openradarscience.org/posts/packages/pytda/" rel="alternate"/>

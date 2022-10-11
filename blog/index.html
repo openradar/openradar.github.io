@@ -12,8 +12,8 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=9b1a4fa89bdd0e95b23b" rel="stylesheet">
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=9b1a4fa89bdd0e95b23b" rel="stylesheet">
+  <link href="../_static/styles/theme.css?digest=1e1de1a1873e13ef5536" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1e1de1a1873e13ef5536" rel="stylesheet">
 
   
   <link rel="stylesheet"
@@ -22,17 +22,18 @@
     href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2">
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2">
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
     <link rel="icon" sizes="16x16" type="image/svg" href="../_static/openradar_micro.svg" />
     <link rel="icon" sizes="32x32" type="image/svg" href="../_static/openradar_micro.svg" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=9b1a4fa89bdd0e95b23b">
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1e1de1a1873e13ef5536">
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -40,10 +41,6 @@
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script>let toggleHintShow = 'Click to show';</script>
-    <script>let toggleHintHide = 'Click to hide';</script>
-    <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js"></script>
     <script kind="utterances">
 
     var commentsRunWhenDOMLoaded = cb => {
@@ -78,7 +75,6 @@ var addUtterances = () => {
 }
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/design-tabs.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'blog';</script>
     <link rel="index" title="Index" href="../genindex/" />
@@ -136,7 +132,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     <div class="search-button__search-container">
       
 <form class="bd-search d-flex align-items-center" action="../search/" method="get">
-  <i class="icon fas fa-search"></i>
+  <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this site... " aria-label="Search this site... " autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form>
@@ -146,7 +142,7 @@ commentsRunWhenDOMLoaded(addUtterances);
   
   <nav class="bd-header navbar navbar-expand-lg bd-navbar" id="navbar-main"><div class="bd-header__inner bd-page-width">
   <label class="sidebar-toggle primary-toggle" for="__primary">
-      <span class="fas fa-bars"></span>
+      <span class="fa-solid fa-bars"></span>
   </label>
   <div id="navbar-start">
     
@@ -225,7 +221,7 @@ commentsRunWhenDOMLoaded(addUtterances);
                 
 
             <li class="nav-item">
-                <a class="nav-link nav-external" href="https://docs.openradarscience.org">Docs<i class="fas fa-external-link-alt"></i></a>
+                <a class="nav-link nav-external" href="https://docs.openradarscience.org">Docs<i class="fa-solid fa-up-right-from-square"></i></a>
             </li>
                 </div>
             </div>
@@ -239,8 +235,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     <div id="navbar-end">
       <div class="navbar-end-item navbar-end__search-button-container">
         
-<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search">
-  <i class="fas fa-search"></i>
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
 </button>
       </div>
       
@@ -253,8 +249,20 @@ commentsRunWhenDOMLoaded(addUtterances);
           
           
           
-          <a href="https://github.com/openradar/openradar.github.io" title="GitHub" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-github-square"></i></span>
+          
+          <a href="https://github.com/openradar/openradar.github.io" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fa-brands fa-square-github"></i></span>
             <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://openradar.discourse.group" title="Discourse" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-discourse"></i></span>
+            <label class="sr-only">Discourse</label></a>
         </li>
       </ul>
       </div>
@@ -265,14 +273,14 @@ commentsRunWhenDOMLoaded(addUtterances);
 
   
   <div class="search-button-container--mobile">
-<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search">
-  <i class="fas fa-search"></i>
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
 </button>
   </div>
 
   
   <label class="sidebar-toggle secondary-toggle" for="__secondary">
-      <span class="fas fa-outdent"></span>
+      <span class="fa-solid fa-outdent"></span>
   </label>
   
 
@@ -339,7 +347,7 @@ commentsRunWhenDOMLoaded(addUtterances);
                 
 
             <li class="nav-item">
-                <a class="nav-link nav-external" href="https://docs.openradarscience.org">Docs<i class="fas fa-external-link-alt"></i></a>
+                <a class="nav-link nav-external" href="https://docs.openradarscience.org">Docs<i class="fa-solid fa-up-right-from-square"></i></a>
             </li>
                 </div>
             </div>
@@ -364,8 +372,20 @@ commentsRunWhenDOMLoaded(addUtterances);
           
           
           
-          <a href="https://github.com/openradar/openradar.github.io" title="GitHub" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-github-square"></i></span>
+          
+          <a href="https://github.com/openradar/openradar.github.io" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fa-brands fa-square-github"></i></span>
             <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://openradar.discourse.group" title="Discourse" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fab fa-discourse"></i></span>
+            <label class="sr-only">Discourse</label></a>
         </li>
       </ul>
       </div>
@@ -632,8 +652,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/news/">news</a>   
   <a href="tag/infrastructure/">infrastructure</a>   
+  <a href="tag/news/">news</a>   
   <a href="tag/community/">community</a>  
 </li>
  
@@ -689,9 +709,9 @@ commentsRunWhenDOMLoaded(addUtterances);
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/radar/">radar</a>   
+  <a href="tag/project/">project</a>   
   <a href="tag/imd/">IMD</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/radar/">radar</a>  
 </li>
  
     </ul>
@@ -748,8 +768,8 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
@@ -804,10 +824,10 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/opticalflow/">opticalflow</a>   
+  <a href="tag/project/">project</a>   
   <a href="tag/nowcasting/">nowcasting</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/devel/">devel</a>   
+  <a href="tag/opticalflow/">opticalflow</a>  
 </li>
  
     </ul>
@@ -862,10 +882,10 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/opticalflow/">opticalflow</a>   
+  <a href="tag/project/">project</a>   
   <a href="tag/nowcasting/">nowcasting</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/devel/">devel</a>   
+  <a href="tag/opticalflow/">opticalflow</a>  
 </li>
  
     </ul>
@@ -905,9 +925,9 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-language"></i></span
   >
    
-  <a href="language/python/">Python</a>,   
+  <a href="language/cython/">Cython</a>,   
   <a href="language/c/">C</a>,   
-  <a href="language/cython/">Cython</a>  
+  <a href="language/python/">Python</a>  
 </li>
  
 <li id="category">
@@ -923,8 +943,8 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
@@ -964,9 +984,9 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-language"></i></span
   >
    
-  <a href="language/python/">Python</a>,   
   <a href="language/c/">C</a>,   
-  <a href="language/java/">Java</a>  
+  <a href="language/java/">Java</a>,   
+  <a href="language/python/">Python</a>  
 </li>
  
 <li id="category">
@@ -982,8 +1002,8 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
@@ -1039,8 +1059,8 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
@@ -1279,8 +1299,8 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
@@ -1335,8 +1355,8 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
@@ -1391,8 +1411,8 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
@@ -1447,14 +1467,14 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
     <div class="ablog-post-excerpt docutils container">
 <p>This software provides Python functions that will estimate turbulence from Doppler radar data ingested via Py-ART. Specifically, this software will estimate the cubic root of eddy dissipation rate, given input radar data containing reflectivity and spectrum width. Can be done on an individual sweep basis or by processing a full volume at once. If the latter, a new turbulence field is created within the Py-ART radar object. The turbulence algorithm is based on the NCAR Turbulence Detection Algorithm (NTDA), adapted to work with a single radar.</p>
-<p><a class="reference external" href="https://github.com/nasa/PyTDA">https://github.com/nasa/PyTDA</a></p>
+<p><a class="github reference external" href="https://github.com/nasa/PyTDA">nasa/PyTDA</a></p>
 </div>
 
     <p class="ablog-post-expand"><a href="../posts/packages/pytda/"><em>Read more ...</em></a></p>
@@ -1503,8 +1523,8 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
@@ -1543,10 +1563,10 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-language"></i></span
   >
    
-  <a href="language/python/">Python</a>,   
-  <a href="language/fortran/">FORTRAN</a>,   
+  <a href="language/cython/">Cython</a>,   
   <a href="language/c/">C</a>,   
-  <a href="language/cython/">Cython</a>  
+  <a href="language/fortran/">FORTRAN</a>,   
+  <a href="language/python/">Python</a>  
 </li>
  
 <li id="category">
@@ -1562,8 +1582,8 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
@@ -1602,8 +1622,8 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-language"></i></span
   >
    
-  <a href="language/python/">Python</a>,   
-  <a href="language/c/">C</a>  
+  <a href="language/c/">C</a>,   
+  <a href="language/python/">Python</a>  
 </li>
  
 <li id="category">
@@ -1619,14 +1639,14 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
     <div class="ablog-post-excerpt docutils container">
 <p>MultiDop is a Python-based interface between the C-based DDA code developed at University of Oklahoma and the Python Atmospheric Radiation Measurement Radar Toolkit (Py-ART) software developed at Argonne National Lab. Use this software to perform 3D wind analyses using 2-3 independent Doppler radars.</p>
-<p><a class="reference external" href="https://github.com/nasa/MultiDop">https://github.com/nasa/MultiDop</a></p>
+<p><a class="github reference external" href="https://github.com/nasa/MultiDop">nasa/MultiDop</a></p>
 </div>
 
     <p class="ablog-post-expand"><a href="../posts/packages/multidop/"><em>Read more ...</em></a></p>
@@ -1675,14 +1695,14 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
     <div class="ablog-post-excerpt docutils container">
 <p>The National Oceanic and Atmospheric Administration (NOAA) regularly produces national 3D radar reflectivity mosaics via its Multi-Radar/Multi-Sensor (MRMS) system. These mosaics are wonderful for storm and precipitation analysis and research, but they are distributed in odd formats that NOAA is ever changing. Sometimes you just want to read a file and make a plot! This is what MMM-Py is for. With it, you can read any version of the MRMS radar mosaics, past or present, and you can analyze, plot, subsection, and output custom mosaics of your own, which MMM-Py can ingest later. MMM-Py is free and open source. It is capable of producing publication-ready figures and analyses, but it also can do quicklook plots so you can check out the cool storm that just happened.</p>
-<p><a class="reference external" href="https://github.com/nasa/MMM-Py">https://github.com/nasa/MMM-Py</a></p>
+<p><a class="github reference external" href="https://github.com/nasa/MMM-Py">nasa/MMM-Py</a></p>
 </div>
 
     <p class="ablog-post-expand"><a href="../posts/packages/mmm-py/"><em>Read more ...</em></a></p>
@@ -1731,14 +1751,14 @@ data like as Py-ART, and Wradlib.</p>
     ><i class="fa-fw fa fa-tags"></i> </span
   >
    
-  <a href="tag/devel/">devel</a>   
-  <a href="tag/project/">project</a>  
+  <a href="tag/project/">project</a>   
+  <a href="tag/devel/">devel</a>  
 </li>
  
     </ul>
     <div class="ablog-post-excerpt docutils container">
 <p>Visualization tool leveraging PyArt package. Allows browsing data and accessing some PyArt calculations. Also working toward Solo-like editing alternative.</p>
-<p><a class="reference external" href="https://github.com/nguy/artview">https://github.com/nguy/artview</a></p>
+<p><a class="github reference external" href="https://github.com/nguy/artview">nguy/artview</a></p>
 </div>
 
     <p class="ablog-post-expand"><a href="../posts/packages/artview/"><em>Read more ...</em></a></p>
@@ -1765,6 +1785,11 @@ data like as Py-ART, and Wradlib.</p>
               
 <div class="toc-item">
   
+<div id="searchbox"></div>
+</div>
+
+<div class="toc-item">
+  
 </div>
 
 <div class="toc-item">
@@ -1788,7 +1813,7 @@ data like as Py-ART, and Wradlib.</p>
   
     
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=9b1a4fa89bdd0e95b23b"></script>
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1e1de1a1873e13ef5536"></script>
 
   <footer class="bd-footer"><div class="bd-footer__inner container">
   
