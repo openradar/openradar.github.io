@@ -7,12 +7,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="57mm"
-   height="31mm"
-   viewBox="0 0 57 31"
+   width="59.140625mm"
+   height="30.827169mm"
+   viewBox="0 0 59.140625 30.827169"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="openradar_logo.svg">
   <title
      id="title950">Open Radar Logo</title>
@@ -51,22 +51,26 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.5297303"
-     inkscape:cx="94.544591"
-     inkscape:cy="108.65668"
+     inkscape:cx="93.788686"
+     inkscape:cy="74.38448"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1171"
-     inkscape:window-x="1920"
+     inkscape:window-height="1007"
+     inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     fit-margin-top="0.2"
+     fit-margin-left="0.2"
+     fit-margin-right="0.2"
+     fit-margin-bottom="0.2">
     <inkscape:grid
        type="xygrid"
        id="grid38"
-       originx="-1.4835639"
-       originy="-1.5063029" />
+       originx="-1.6835639"
+       originy="-1.5791341" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -105,96 +109,102 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-1.4835636,-1.5063026)">
+     transform="translate(-1.6835635,-1.6063025)">
     <text
        xml:space="preserve"
        id="text28"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect30);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:10.58329964px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect30);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        transform="translate(3.8425892,0.42738856)"><tspan
          style="visibility:hidden"
          x="40.085938"
-         y="92.647577"><tspan
-           dx="0 7.2811861 6.6765738 6.0151176 7.5499039">OPEN
+         y="92.647575"
+         id="tspan91"><tspan
+           dx="0 7.2811861 6.6765738 6.0151176 7.5499039"
+           id="tspan89">OPEN
 </tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10.58329964px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="32.388866"
        y="44.712357"
        id="text36"><tspan
          sodipodi:role="line"
          id="tspan34"
          x="32.388866"
-         y="44.712357"
-         style="stroke-width:0.264583px" /></text>
+         y="54.076096"
+         style="stroke-width:0.26458299px" /></text>
     <text
        xml:space="preserve"
        id="text74"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect76);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+       style="font-style:normal;font-weight:normal;font-size:10.58329964px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect76);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <g
-       id="g977">
+       id="g123">
       <g
-         id="g868"
-         transform="translate(1.6003203,-0.20000048)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0093ff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="22.430235"
-           y="17.550259"
-           id="text42"><tspan
-             sodipodi:role="line"
-             id="tspan40"
-             x="22.430235"
+         id="g977">
+        <g
+           transform="translate(1.6003203,-0.20000048)"
+           id="g868">
+          <text
+             id="text42"
              y="17.550259"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0093ff;fill-opacity:1;stroke-width:0.264583px">OPEN </tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0093ff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="22.248333"
-           y="25.027102"
-           id="text46"><tspan
-             sodipodi:role="line"
-             id="tspan44"
-             x="22.248333"
+             x="22.430235"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667004px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0093ff;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667004px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0093ff;fill-opacity:1;stroke-width:0.26458299px"
+               y="17.550259"
+               x="22.430235"
+               id="tspan40"
+               sodipodi:role="line">OPEN </tspan></text>
+          <text
+             id="text46"
              y="25.027102"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0093ff;fill-opacity:1;stroke-width:0.264583px">RADAR </tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0093ff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="22.49638"
-           y="32.506012"
-           id="text50"><tspan
-             sodipodi:role="line"
-             id="tspan48"
-             x="22.49638"
+             x="22.248333"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667004px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0093ff;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667004px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0093ff;fill-opacity:1;stroke-width:0.26458299px"
+               y="25.027102"
+               x="22.248333"
+               id="tspan44"
+               sodipodi:role="line">RADAR </tspan></text>
+          <text
+             id="text50"
              y="32.506012"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0093ff;fill-opacity:1;stroke-width:0.264583px">SCIENCE </tspan></text>
+             x="22.49638"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667004px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0093ff;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667004px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0093ff;fill-opacity:1;stroke-width:0.26458299px"
+               y="32.506012"
+               x="22.49638"
+               id="tspan48"
+               sodipodi:role="line">SCIENCE </tspan></text>
+        </g>
+        <path
+           inkscape:connector-curvature="0"
+           d="m 12.083512,2.6678025 a 9.3385501,9.3385512 0 0 0 -9.3384485,9.3384465 9.3385501,9.3385512 0 0 0 2.746603,6.614584 H 18.674841 a 9.3385501,9.3385512 0 0 0 2.747118,-6.614584 9.3385501,9.3385512 0 0 0 -9.338447,-9.3384465 z"
+           style="fill:none;fill-opacity:1;stroke:#0095ff;stroke-width:2.12299991;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path56-5" />
+        <rect
+           y="22.011803"
+           x="5.4689283"
+           height="1.3229173"
+           width="13.229167"
+           id="rect848"
+           style="fill:none;fill-opacity:1;stroke:#0093ff;stroke-width:1.72300005;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="26.180803"
+           x="5.4689279"
+           height="1.3229173"
+           width="13.229167"
+           id="rect848-3"
+           style="fill:#004d86;fill-opacity:1;stroke:#0093ff;stroke-width:1.72300005;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="30.249054"
+           x="5.4689283"
+           height="1.3229173"
+           width="13.229167"
+           id="rect848-6"
+           style="fill:#004d86;fill-opacity:1;stroke:#0093ff;stroke-width:1.72300005;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       </g>
-      <path
-         id="path56-5"
-         style="fill:none;fill-opacity:1;stroke:#0095ff;stroke-width:2.123;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 12.083512,2.6678025 a 9.3385501,9.3385512 0 0 0 -9.3384485,9.3384465 9.3385501,9.3385512 0 0 0 2.746603,6.614584 H 18.674841 a 9.3385501,9.3385512 0 0 0 2.747118,-6.614584 9.3385501,9.3385512 0 0 0 -9.338447,-9.3384465 z" />
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#0093ff;stroke-width:1.723;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect848"
-         width="13.229167"
-         height="1.3229173"
-         x="5.4689283"
-         y="22.011803" />
-      <rect
-         style="fill:#004d86;fill-opacity:1;stroke:#0093ff;stroke-width:1.723;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect848-3"
-         width="13.229167"
-         height="1.3229173"
-         x="5.4689279"
-         y="26.180803" />
-      <rect
-         style="fill:#004d86;fill-opacity:1;stroke:#0093ff;stroke-width:1.723;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect848-6"
-         width="13.229167"
-         height="1.3229173"
-         x="5.4689283"
-         y="30.249054" />
     </g>
   </g>
 </svg>
