@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>openradarscience.org</id>
   <title>Open Radar Science</title>
-  <updated>2022-11-07T16:21:05.717710+00:00</updated>
+  <updated>2023-03-07T19:51:58.780274+00:00</updated>
   <link href="openradarscience.org"/>
   <link href="openradarscience.org/blog/atom.xml" rel="self"/>
-  <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
   <entry>
     <id>openradarscience.org/posts/packages/artview/</id>
     <title>ARTView</title>
@@ -391,5 +391,43 @@ data like as Py-ART, and Wradlib.https://syedhamidali.github.io/PyScanCfPyScanCf
     <category term="infrastructure" label="infrastructure"/>
     <category term="news" label="news"/>
     <published>2022-08-31T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>openradarscience.org/posts/2022/hail-package-announcment/</id>
+    <title>Hail Retrievals for the Open Source Community</title>
+    <updated>2022-11-15T00:00:00+00:00</updated>
+    <author>
+      <name>Joshua Soderholm</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Hail is a global hazard, with damage to property, vehicles and agriculture resulting in billions of dollars in losses every year. This has motivated decades of research into estimating the size and intensity of hail from weather radar, and now numerous algorithms exist that work on operational weather radar datasets. PyHail represents a single library where many of these retrievals are available to enable rapid integration into existing Py-ART projects.&lt;/p&gt;
+&lt;p&gt;Hail retrievals provide an estimate of hail severity, including maximum dimension, accumulation depth and kinetic energy. These estimates can be used to:&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="openradarscience.org/posts/2022/hail-package-announcment/" rel="alternate"/>
+    <summary>Hail is a global hazard, with damage to property, vehicles and agriculture resulting in billions of dollars in losses every year. This has motivated decades of research into estimating the size and intensity of hail from weather radar, and now numerous algorithms exist that work on operational weather radar datasets. PyHail represents a single library where many of these retrievals are available to enable rapid integration into existing Py-ART projects.Hail retrievals provide an estimate of hail severity, including maximum dimension, accumulation depth and kinetic energy. These estimates can be used to:</summary>
+    <category term="hail" label="hail"/>
+    <category term="news" label="news"/>
+    <category term="radar" label="radar"/>
+    <published>2022-11-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>openradarscience.org/posts/packages/pyhail/</id>
+    <title>pyhail</title>
+    <updated>2022-11-15T00:00:00+00:00</updated>
+    <author>
+      <name>bom</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;This software provides Python functions for retrieving hail properties from weather radar data ingested via Py-ART. This includes the Maximum Estimated Size of Hail (MESH), Hail Accumulation (hAcc), Hail Differential Reflectivity (HDR) and the Hail Size Discrimination Algorithm (HSDA). MESH is implemented for both the Py-ART radar (ppi) and grid objects, and options are available for different fits of the SHI hail-size relationship. A notebook is provided to demonstrate how to call each retrieval.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pyhail sample image" src="../_images/pyhail_sample.png" /&gt;&lt;/p&gt;
+&lt;img alt="pyhail sample image" src="../_images/pyhail_sample.png" /&gt;
+&lt;/div&gt;
+</content>
+    <link href="openradarscience.org/posts/packages/pyhail/" rel="alternate"/>
+    <summary>This software provides Python functions for retrieving hail properties from weather radar data ingested via Py-ART. This includes the Maximum Estimated Size of Hail (MESH), Hail Accumulation (hAcc), Hail Differential Reflectivity (HDR) and the Hail Size Discrimination Algorithm (HSDA). MESH is implemented for both the Py-ART radar (ppi) and grid objects, and options are available for different fits of the SHI hail-size relationship. A notebook is provided to demonstrate how to call each retrieval.pyhail sample imagepyhail sample image</summary>
+    <category term="devel" label="devel"/>
+    <category term="project" label="project"/>
+    <published>2022-11-15T00:00:00+00:00</published>
   </entry>
 </feed>
