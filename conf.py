@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Open Radar Science Community'
-copyright = '2022, Open Radar Science Community'
+copyright = '2023, Open Radar Science Community'
 author = 'Open Radar Science Community'
 
 # The full version, including alpha/beta/rc tags
