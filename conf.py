@@ -94,7 +94,7 @@ html_theme_options = {
         },
     ],
     'github_url': 'https://github.com/openradar/openradar.github.io',
-    "header_links_before_dropdown": 4,
+    "header_links_before_dropdown": 6,
     "show_toc_level": 1,
     'search_bar_text': 'Search this site... ',
     "navbar_align": "left",
