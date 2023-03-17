@@ -9,10 +9,10 @@ The Next Generation Weather Radar (NEXRAD) network, operated by the National Wea
 ### NEXRAD Level 2 to Level 3 Processing
 
 - [PreprocessorAEL-V3Final10152009.pdf](../reference/nexrad/PreprocessorAEL-V3Final10152009.pdf)
-<iframe width="100%" height="800" src="../_downloads/5b5ba2eef5615ad129727fc593fc56d3/PreprocessorAEL-V3Final10152009.pdf"></iframe>
+<iframe width="100%" height="800" src="../../_downloads/5b5ba2eef5615ad129727fc593fc56d3/PreprocessorAEL-V3Final10152009.pdf"></iframe>
 
 
 ### Recombination of Super Resolution Data and Ground Clutter Recognition
 
 - [Super_Res_recomb_dp.pdf](../reference/nexrad/Super_Res_recomb_dp.pdf)
-<iframe width="100%" height="800" src="../_downloads/ba216078254efd36d6863284c2d131ca/Super_Res_recomb_dp.pdf"></iframe>
+<iframe width="100%" height="800" src="../../_downloads/ba216078254efd36d6863284c2d131ca/Super_Res_recomb_dp.pdf"></iframe>
