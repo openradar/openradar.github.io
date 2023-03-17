@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>openradarscience.org</id>
   <title>Open Radar Science</title>
-  <updated>2023-03-17T06:35:15.395058+00:00</updated>
+  <updated>2023-03-17T06:47:22.469096+00:00</updated>
   <link href="openradarscience.org"/>
   <link href="openradarscience.org/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
