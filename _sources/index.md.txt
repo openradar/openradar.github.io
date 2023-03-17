@@ -41,5 +41,6 @@ pages/projects
 blog
 pages/workshops
 pages/community
+pages/reference
 pages/opendata
 ```
