@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Open Radar Science Community'
-copyright = '2022, Open Radar Science Community'
+copyright = '2023, Open Radar Science Community'
 author = 'Open Radar Science Community'
 
 # The full version, including alpha/beta/rc tags
@@ -94,7 +94,7 @@ html_theme_options = {
         },
     ],
     'github_url': 'https://github.com/openradar/openradar.github.io',
-    "header_links_before_dropdown": 4,
+    "header_links_before_dropdown": 6,
     "show_toc_level": 1,
     'search_bar_text': 'Search this site... ',
     "navbar_align": "left",
