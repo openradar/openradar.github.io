@@ -5,6 +5,7 @@ Over the years, the Open Radar Science Community has hosted a variety of short c
 ## Short Courses
 
 Here is a list of previous course material:
-- [ERAD 2018](https://github.com/openradar/erad2018)
-- [AMS Radar 2019](https://github.com/openradar/AMS-Open-Source-Radar-2019)
+- [AMS Radar 2023](https://openradarscience.org/ams-open-radar-2023)
 - [ERAD 2022](https://openradarscience.org/erad2022)
+- [AMS Radar 2019](https://github.com/openradar/AMS-Open-Source-Radar-2019)
+- [ERAD 2018](https://github.com/openradar/erad2018)
