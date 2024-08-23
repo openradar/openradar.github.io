@@ -1,0 +1,7 @@
+name: trigger-book-build
+on:
+  pull_request:
+
+jobs:
+  build:
+    uses: ./.github/workflows/build-book.yaml

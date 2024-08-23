@@ -1,0 +1,44 @@
+---
+title: Your Project Title
+date: 2000-01-01
+authors: the authors
+---
+
+# Project name
+
+## Quick Description
+
+A short overview on the capabilities of the project/package.
+
+## Homepage
+<link/to/the/homepage>
+
+## Sample Image
+![a sample image](../images/or_logo.png)
+
+## Code Repository
+<link/to/the/project/repo>
+
+## Software Documentation
+<link/to/the/software/doc>
+
+## User group or forum page
+<link/to/the/forum>
+
+## License model
+see https://opensource.org/licenses and add link to
+
+## Year of first release
+eg. 2013
+
+## Main programming laguage(s)
+a list, eg. Python, Cython, C
+
+## Supported platforms
+a list, eg. Linux, Mac, Windows
+
+## Type of software
+describe best, eg. Application & API
+
+## References
+a list of doi's and references

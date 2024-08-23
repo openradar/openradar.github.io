@@ -1,0 +1,16 @@
+name: publish-book
+
+on:
+  # Trigger the workflow on push to main branch
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: ./.github/workflows/build-book.yaml
+
+  deploy:
+    needs: build
+    uses: ./.github/workflows/deploy-book.yaml
