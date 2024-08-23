@@ -47,15 +47,19 @@ Install Py-ART (<https://github.com/ARM-DOE/pyart>)
 Run compile_pytda_cython_code.sh from the command line
 
 To use PyTDA:
+```python
 import pytda
+```
 
 Then you have access to the functions pytda.calc_turb_sweep() and pytda.calc_turb_vol().
 
 Obtaining the turbulence field for a volume can be as simple as:
+```python
 import pyart
 import pytda
 radar = pyart.io.read('YOUR_FILE_HERE')
 pytda.calc_turb_vol(radar) #See function's docstring for kwargs
+```
 
 You will then have a field called 'turbulence' that can be plotted, analyzed, or saved to file like any other Py-ART radar field.
 

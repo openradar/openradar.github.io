@@ -41,7 +41,7 @@ The processing framework has multiple and expanding capabilities, include variou
 <https://anaconda.org/conda-forge/pyrad_mch>
 
 ## Software Documentation
-<https://pyrad-mch.readthedocs.io/en/latest/index.html>
+<https://meteoswiss.github.io/pyrad/>
 
 ## User group or forum page
 Subscribe to the [mailing list](https://github.us1.list-manage.com/subscribe?u=2e8561343b026dacadbc70c92&id=9a43ddb927) for news and updates on releases.
@@ -64,4 +64,4 @@ Linux, Mac
 Application and API/Library
 
 ## References
-Figueras i Ventura, J., Lainer, M., Schauwecker, Z., Grazioli, J. and Germann, U., 2020. Pyrad: A Real-Time Weather Radar Data Processing Framework Based on Py-ART. Journal of Open Research Software, 8(1), p.28. DOI: <http://doi.org/10.5334/jors.330>
+Figueras i Ventura, J., Lainer, M., Schauwecker, Z., Grazioli, J. and Germann, U., 2020. Pyrad: A Real-Time Weather Radar Data Processing Framework Based on Py-ART. Journal of Open Research Software, 8(1), p.28. DOI: <https://doi.org/10.5334/jors.330>

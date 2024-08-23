@@ -24,11 +24,7 @@ data like as Py-ART, and Wradlib.
 ### Example notebooks
 <https://github.com/syedhamidali/PyScanCf/tree/master/Examples>
 
-### Sample data
-<https://github.com/syedhamidali/PyScanCf/tree/master/Examples/goa16/>
-
 ## Software Documentation
-
 <https://syedhamidali.github.io/PyScanCf>
 
 ## User group or forum page
