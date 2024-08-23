@@ -7,7 +7,7 @@ jobs:
   build-book:
     runs-on: ubuntu-latest
     env:
-      BASE_URL: /${{ github.event.repository.name }}
+      BASE_URL: /kmuehlbauer.github.io/${{ github.event.repository.name }}
     defaults:
       run:
         shell: bash -l {0}
