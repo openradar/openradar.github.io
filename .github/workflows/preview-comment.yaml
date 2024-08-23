@@ -1,0 +1,95 @@
+name: preview-comment
+
+on:
+  workflow_call:
+    inputs:
+      pull_request_number:
+        description: 'Number of the Pull Request event that needs commenting'
+        required: true
+        type: string
+      sha:
+        description: 'SHA of the commit associated with this Pull Request'
+        required: true
+        type: string
+      site_name: 
+        description: 'Name of the website in comment'
+        required: false
+        default: "The Cookbook"
+        type: string
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch Repo Name
+        id: repo-name
+        run: echo "value=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_OUTPUT  # just the repo name, not owner
+
+      - name: Set message value
+        run: |
+          echo "comment_message=👋 Thanks for opening this PR! ${{ inputs.site_name }} will be automatically built with [GitHub Actions](https://github.com/features/actions). To see the status of your deployment, click below." >> $GITHUB_ENV
+
+      - name: Find preview comment
+        uses: peter-evans/find-comment@v3
+        id: fc
+        with:
+          issue-number: '${{ inputs.pull_request_number }}'
+          comment-author: 'github-actions[bot]'
+          body-includes: '${{ env.comment_message }}'
+
+      - name: Create preview comment
+        if: |
+          github.event.workflow_run.conclusion != 'success'
+          && steps.fc.outputs.comment-id == ''
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ inputs.pull_request_number }}
+          body: |
+            ${{ env.comment_message }}
+            🔍 Git commit SHA: ${{ inputs.sha }}
+            ✅ Deployment Preview URL: In Progress
+
+      - name: Update preview comment
+        if: |
+          github.event.workflow_run.conclusion != 'success'
+          && steps.fc.outputs.comment-id != ''
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          edit-mode: replace
+          body: |
+            ${{ env.comment_message }}
+            🔍 Git commit SHA: ${{ inputs.sha }}
+            ✅ Deployment Preview URL: In Progress
+
+      - name: Set preview URL
+        if: |
+          github.event.workflow_run.conclusion == 'success'
+          && steps.fc.outputs.comment-id != ''
+        id: preview-url
+        run: |
+          shopt -s nocasematch
+          if [[ ${{ steps.repo-name.outputs.value }} = ${{ github.repository_owner }}.github.io ]]
+          then
+            echo "url=https://${{ steps.repo-name.outputs.value }}/_preview/${{ inputs.pull_request_number }}" >> $GITHUB_OUTPUT
+          else
+            echo "url=https://${{ github.repository_owner }}.github.io/${{ steps.repo-name.outputs.value }}/_preview/${{ inputs.pull_request_number }}" >> $GITHUB_OUTPUT
+          fi
+          shopt -u nocasematch
+
+      - name: Finalize preview comment
+        if: |
+          github.event.workflow_run.conclusion == 'success'
+          && steps.fc.outputs.comment-id != ''
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          edit-mode: replace
+          body: |
+            ${{ env.comment_message }}
+            🔍 Git commit SHA: ${{ inputs.sha }}
+            ✅ Deployment Preview URL: ${{ steps.preview-url.outputs.url }}

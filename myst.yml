@@ -1,0 +1,41 @@
+version: 1
+project:
+  open_access: true
+  license:
+    content: Apache-2.0
+    code: CC-BY-4.0
+  title: OpenRadarScience
+  github: https://github.com/openradar
+  copyright: '2024'
+  bibliography:
+    - myst.doi.bib
+  toc:
+    - file: README.md
+    - file: pages/openradar_projects.md
+    - file: pages/affiliated_projects.md
+      children:
+        - pattern: projects/*.md
+    - file: pages/workshops.md
+    - file: pages/openscience.md
+    - file: pages/opendiscussion.md
+    - file: pages/opendata.md
+    - file: pages/reference.md
+  references:
+    xradar: https://docs.openradarscience.org/projects/xradar/en/stable
+    pydda: https://openradarscience.org/PyDDA
+    cmweather: https://cmweather.readthedocs.io/en/stable
+    erad2024: https://openradarscience.org/erad2024
+    asean2024: https://openradarscience.org/asean2024-pyrad-course
+    ams2023: http://openradarscience.org/ams-open-radar-2023/
+    erad2022: https://openradarscience.org/erad2022/
+
+site:
+  options:
+    favicon: images/openradar_mini.svg
+    logo: images/openradar_logo.svg
+    logo_dark: images/openradar_logo.svg
+  nav:
+    - title: Docs
+      url: https://docs.openradarscience.org
+    - title: Discourse
+      url: https://openradar.discourse.group/
