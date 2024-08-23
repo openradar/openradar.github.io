@@ -14,5 +14,3 @@ jobs:
   deploy:
     needs: build
     uses: ./.github/workflows/deploy-book.yaml
-    with:
-      artifact_name:
