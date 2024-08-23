@@ -33,8 +33,16 @@ jobs:
               rm -rf book.zip
           fi
           zip -r book.zip _build/html
-      - name: Upload zipped book artifact
+      - name: Upload zipped book artifact pullrequest
+        if: github.event_name == 'pull_request'
         uses: actions/upload-artifact@v4
         with:
           name: book-zip-${{github.event.number}}
+          path: ./book.zip
+
+      - name: Upload zipped book artifact push
+        if: github.event_name == 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-zip
           path: ./book.zip
