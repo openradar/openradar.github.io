@@ -49,16 +49,22 @@ Install Py-ART (<https://github.com/ARM-DOE/pyart>)
 Install pyhail using pip
 
 To use pyhail:
-from pyhail import hdr, mesh_grid, mesh_ppi, hsda, hacc
 
-Then you have access to the main() functions for each retreival
+```python
+from pyhail import hdr, mesh_grid, mesh_ppi, hsda, hacc
+```
+
+Then you have access to the main() functions for each retrieval.
 
 Obtaining the turbulence field for a volume can be as simple as:
+
+```python
 import pyart
 from pyhail import mesh_ppi
 radar = pyart.io.read('YOUR_FILE_HERE')
 meshppi_fields = mesh_ppi.main(radar, 'REFLECTIVITY_FIELD_NAME', levels=['0C_LEVEL', '-20C_LEVEL])
 radar.add_field('mesh', meshppi_fields['mesh_mh2019_95'], replace_existing=True)
+```
 
 You will then have a field called 'mh2019_95' that can be plotted, analyzed, or saved to file like any other Py-ART radar field. The mesh field will use the default MESH formulation, mesh_mh2019_95, unless specified - see documentation for more details.
 
