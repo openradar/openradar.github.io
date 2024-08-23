@@ -22,14 +22,14 @@ jobs:
       - name: Build the book
         if: github.event_name == 'pull_request'
         env:
-          BASE_URL: /kmuehlbauer.github.io/${{ github.event.repository.name }}/_preview/${{ github.event.pull_request.number }}
+          BASE_URL: /${{ github.event.repository.name }}/_preview/${{ github.event.pull_request.number }}
         run: |
           # build the book
           myst build --ci --html
       - name: Build the book
         if: github.event_name == 'push'
         env:
-          BASE_URL: /kmuehlbauer.github.io/${{ github.event.repository.name }}
+          BASE_URL: /${{ github.event.repository.name }}
         run: |
           # build the book
           if 
