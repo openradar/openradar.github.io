@@ -6,8 +6,6 @@ on:
 jobs:
   build-book:
     runs-on: ubuntu-latest
-    env:
-      BASE_URL: /kmuehlbauer.github.io/${{ github.event.repository.name }}
     defaults:
       run:
         shell: bash -l {0}
@@ -22,8 +20,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install mystmd
       - name: Build the book
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_URL: /kmuehlbauer.github.io/${{ github.event.repository.name }}/_preview/${{ github.event.pull_request.number }}
         run: |
           # build the book
+          if 
+          myst build --ci --html
+      - name: Build the book
+        if: github.event_name == 'push'
+        env:
+          BASE_URL: /kmuehlbauer.github.io/${{ github.event.repository.name }}
+        run: |
+          # build the book
+          if 
           myst build --ci --html
       - name: Zip the book
         run: |
