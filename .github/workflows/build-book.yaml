@@ -24,15 +24,14 @@ jobs:
         env:
           BASE_URL: /${{ github.event.repository.name }}/_preview/${{ github.event.pull_request.number }}
         run: |
-          # build the book push
+          # build the book
           myst build --ci --html
-      - name: Build the book
+      - name: Build the book push
         if: github.event_name == 'push'
         env:
           BASE_URL: /${{ github.event.repository.name }}
         run: |
-          # build the book
-          if 
+          # build the book 
           myst build --ci --html
       - name: Zip the book
         run: |
