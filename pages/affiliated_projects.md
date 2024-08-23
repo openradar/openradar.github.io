@@ -12,7 +12,6 @@ The projects in this category are affiliated to the openradar community. Their c
 * [PyScanCf](../projects/pyscancf.md)
 * [pysteps](../projects/pysteps.md)
 * [PyTDA](../projects/pytda.md)
-* [RadarTools for ArcGID](../projects/radartoolsarcgis.md)
 * [Radx](../projects/radx.md)
 * [rainymotion](../projects/rainymotion.md)
 * [RSL](../projects/rsl.md)
