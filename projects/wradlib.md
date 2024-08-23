@@ -8,7 +8,7 @@ authors: openradar
 
 ## Short Description
 
-[wradlib](https://wradlib.org/) was one of the first open source software solutions to support all essential steps of the weather radar processing chain. Since 2011, wradlib has evolved to be a professional solution for interactive weather radar data analysis and operational processing, with a large international user community in academia, government agencies, and the private sector. The [user forum](https://groups.google.com/forum/?fromgroups#!forum/wradlib-users) with more than 170 active members from all around the world provides an agile platform for exchange and support.
+[wradlib](https://wradlib.org/) was one of the first open source software solutions to support all essential steps of the weather radar processing chain. Since 2011, wradlib has evolved to be a professional solution for interactive weather radar data analysis and operational processing, with a large international user community in academia, government agencies, and the private sector.
 
 ## Homepage
 
@@ -30,11 +30,10 @@ authors: openradar
 <https://github.com/wradlib/wradlib-data>
 
 ## Software Documentation
-
-<http://wradlib.org/wradlib-docs>
+<http://docs.wradlib.org>
 
 ## User group or forum page
-<https://groups.google.com/forum/?fromgroups#!forum/wradlib-users>
+<https://openradar.discourse.group>
 
 ## License model
 MIT

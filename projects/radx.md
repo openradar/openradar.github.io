@@ -12,15 +12,13 @@ The Radx C++ package was developed at NCAR to provide support for the new CfRadi
 
 ## Homepage
 
-<https://ral.ucar.edu/projects/titan/docs/radial_formats/radx.html>
+<https://www.eol.ucar.edu/content/lidar-radar-open-software-environment>
 
 ## Code Repositories
-
 <https://github.com/NCAR/lrose-core>
 
 ## Software Documentation
-
-<https://ral.ucar.edu/projects/titan/docs/radial_formats/radx.html>
+<http://wiki.lrose.net/index.php/Main_Page>
 
 ## User group or forum page
 N/A
