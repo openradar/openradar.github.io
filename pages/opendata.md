@@ -19,6 +19,9 @@
 ## Royal Netherlands Meteorological Institute (KNMI)
 <https://data.knmi.nl/datasets?q=radar>
 
+## Australian Unified Radar Archive (AURA)
+<https://www.openradar.io/>
+
 ## wradlib example data
 <https://github.com/wradlib/wradlib-data>
 
