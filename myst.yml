@@ -13,8 +13,6 @@ project:
     - file: README.md
     - file: pages/openradar_projects.md
     - file: pages/affiliated_projects.md
-      children:
-        - pattern: projects/*.md
     - file: pages/workshops.md
     - file: pages/openscience.md
     - file: pages/opendiscussion.md

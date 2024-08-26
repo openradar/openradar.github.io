@@ -23,7 +23,7 @@ You want to interact with your data, or to build applications? In research, oper
 
 ## Providing a useful software product?
 
-Have you developed a software for weather radar data processing? We invite you to share and advertise your solution here - as long as it's open source licensed! Just fork [this repo](https://github.com/openradar/openradar.github.io), add your product in `projects`-folder (use the [template.md](projects/template.txt)) and request the changes to be pulled.
+Have you developed a software for weather radar data processing? We invite you to share and advertise your solution here - as long as it's open source licensed! Just fork [this repo](https://github.com/openradar/openradar.github.io), add your product to [Affiliated Projects](pages/affiliated_projects.md) and request the changes to be pulled.
 
 ## Get more background...
 
