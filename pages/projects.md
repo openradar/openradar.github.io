@@ -1,26 +1,28 @@
-# Projects
+---
+Title: Open source weather radar software
+---
 
 ![open source](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/121212_2_OpenSwissKnife.png/640px-121212_2_OpenSwissKnife.png "Open source weather radar software")
 
 
 ## Community Effort
-* [OSS Weather Radar Virtual Machine](../posts/packages/osswrvm.md)
+* [OSS Weather Radar Virtual Machine]({filename}../posts/osswrvm.md)
 
 
 ## Related projects (alphabetical order)
-* [ARM-PyArt](../posts/packages/arm-pyart.md)
-* [ARTView](../posts/packages/artview.md)
-* [BALTRAD](../posts/packages/baltrad.md)
-* [MMM-Py](../posts/packages/mmm-py.md)
-* [MultiDop](../posts/packages/multidop.md)
-* [Pyrad](../posts/packages/pyrad.md)
-* [PyRadarMet](../posts/packages/pyradarmet.md)
-* [PyScanCf](../posts/packages/pyscancf.md)
-* [pysteps](../posts/packages//pysteps.md)
-* [PyTDA](../posts/packages/pytda.md)
-* [RadarTools for ArcGID](../posts/packages/radartoolsarcgis.md)
-* [Radx](../posts/packages/radx.md)
-* [rainymotion](../posts/packages/rainymotion.md)
-* [RSL](../posts/packages/rsl.md)
-* [RSL in IDL](../posts/packages/rsl_in_idl.md)
-* [wradlib](../posts/packages/wradlib.md)
+* [ARM-PyArt]({filename}../posts/arm-pyart.md)
+* [ARTView]({filename}../posts/artview.md)
+* [BALTRAD]({filename}../posts/baltrad.md)
+* [MMM-Py]({filename}../posts/mmm-py.md)
+* [MultiDop]({filename}../posts/multidop.md)
+* [Pyrad]({filename}../posts/pyrad.md)
+* [PyRadarMet]({filename}../posts/pyradarmet.md)
+* [PyScanCf]({filename}../posts/pyscancf.md)
+* [pysteps]({filename}../posts/pysteps.md)
+* [PyTDA]({filename}../posts/pytda.md)
+* [RadarTools for ArcGID]({filename}../posts/radartoolsarcgis.md)
+* [LROSE]({filename}../posts/radx.md)
+* [rainymotion]({filename}../posts/rainymotion.md)
+* [RSL]({filename}../posts/rsl.md)
+* [RSL in IDL]({filename}../posts/rsl_in_idl.md)
+* [wradlib]({filename}../posts/wradlib.md)
