@@ -12,7 +12,7 @@ The projects in this category are affiliated to the openradar community. Their c
 * [PyScanCf](https://syedhamidali.github.io/PyScanCf)
 * [pysteps](https://pysteps.github.io/)
 * [PyTDA](https://github.com/nasa/PyTDA)
-* [Radx](https://wiki.lrose.net/index.php/Main_Page)
+* [Radx](http://wiki.lrose.net/index.php/Main_Page)
 * [rainymotion](https://rainymotion.readthedocs.io)
 * [RSL](https://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/quick_ref.php)
 * [RSL in IDL](https://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl_in_idl/RSL_in_IDL.php)
