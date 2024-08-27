@@ -1,0 +1,25 @@
+name: find-pull-request
+
+on:
+  workflow_call:
+    outputs:
+      number:
+        description: "The Pull Request number"
+        value: ${{ jobs.find-pr.outputs.number }}
+      sha:
+        description: "The SHA of the commit associated with this PR"
+        value: ${{ jobs.find-pr.outputs.sha }}
+
+jobs:
+  find-pr:
+    runs-on: ubuntu-latest
+    outputs:
+      number: ${{ steps.find-pull-request.outputs.pullRequestNumber }}
+      sha: ${{ steps.find-pull-request.outputs.mergeCommitSha }}
+    steps:
+      - name: Find Pull Request
+        id: find-pull-request
+        uses: potiuk/get-workflow-origin@v1_1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          sourceRunId: ${{ github.event.workflow_run.id }}

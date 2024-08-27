@@ -1,0 +1,55 @@
+name: build-book
+
+on:
+  workflow_call:
+
+jobs:
+  build-book:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mystmd
+      - name: Build the book pullrequest
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_URL: /${{ github.event.repository.name }}/_preview/${{ github.event.pull_request.number }}
+        run: |
+          # build the book
+          myst build --ci --html
+      - name: Build the book push
+        if: github.event_name == 'push'
+        env:
+          BASE_URL: /${{ github.event.repository.name }}
+        run: |
+          # build the book 
+          myst build --ci --html
+      - name: Zip the book
+        run: |
+          set -x
+          set -e
+          if [ -f book.zip ]; then
+              rm -rf book.zip
+          fi
+          zip -r book.zip _build/html
+      - name: Upload zipped book artifact pullrequest
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-zip-${{github.event.number}}
+          path: ./book.zip
+      - name: Upload zipped book artifact push
+        if: github.event_name == 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-zip
+          path: ./book.zip
