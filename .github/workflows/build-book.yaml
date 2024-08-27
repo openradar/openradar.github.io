@@ -28,8 +28,6 @@ jobs:
           myst build --ci --html
       - name: Build the book push
         if: github.event_name == 'push'
-        env:
-          BASE_URL: /${{ github.event.repository.name }}
         run: |
           # build the book 
           myst build --ci --html
