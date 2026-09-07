@@ -5,6 +5,7 @@ The projects in this category are affiliated to the openradar community. Their c
 * [ARM-PyArt](https://arm-doe.github.io/pyart/)
 * [ARTView](https://github.com/nguy/artview/)
 * [BALTRAD](https://baltrad.github.io/)
+* [HookEcho](https://hookecho.io/) — NEXRAD weather radar viewer with Level 2/3 analysis and archive playback ([source code](https://github.com/d4vid87/hookecho), MIT).
 * [LROSE](http://wiki.lrose.net/index.php/Main_Page)
 * [MMM-Py](https://github.com/nasa/MMM-Py)
 * [MultiDop](https://github.com/nasa/MultiDop)
